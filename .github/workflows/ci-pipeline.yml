@@ -22,4 +22,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Compilar e rodar testes com Maven
-        run: mvn -B verify -fae -V
+        run: mvn -B verify
