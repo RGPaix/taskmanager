@@ -37,7 +37,7 @@ public class TaskServiceTest {
 
         assertNotNull(resultado);
         assertEquals(1L, resultado.getId());
-        assertEquals("Estudar Spring Boot", resultado.getTitle());
+        assertEquals(" ", resultado.getTitle());
         verify(taskRepository, times(1)).save(novaTask);
     }
 
